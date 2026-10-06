@@ -102,7 +102,7 @@ Open either `.ioc` file to inspect or regenerate peripheral initialization. Pres
 | `IRAvoid.c` | Directional avoidance and blocked-path escape sequence |
 | `remote.c` | NEC timing decode and key-value delivery |
 | `keysacn.c` | Startup key scan, buzzer and indicator interaction |
-| `Server.c` | Servo angle limiting and TIM5 compare mapping |
+| `servo.c` | Servo angle limiting and TIM5 compare mapping |
 
 ## Notes
 

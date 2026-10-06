@@ -656,14 +656,14 @@
               <FilePath>..\Core\Src\IRSEARCH.c</FilePath>
             </File>
             <File>
-              <FileName>Server.c</FileName>
+              <FileName>servo.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\Core\Src\Server.c</FilePath>
+              <FilePath>..\Core\Src\servo.c</FilePath>
             </File>
             <File>
-              <FileName>Server.h</FileName>
+              <FileName>servo.h</FileName>
               <FileType>5</FileType>
-              <FilePath>..\Core\Inc\Server.h</FilePath>
+              <FilePath>..\Core\Inc\servo.h</FilePath>
             </File>
             <File>
               <FileName>remote.h</FileName>

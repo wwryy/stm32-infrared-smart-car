@@ -97,13 +97,13 @@ uint8_t step = 0;
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
-		if (HAL_GPIO_ReadPin(GPIOA, GPIO_PIN_4) == GPIO_PIN_SET)   // PA4 ???
+		if (HAL_GPIO_ReadPin(GPIOA, GPIO_PIN_4) == GPIO_PIN_SET)
     {
-        HAL_GPIO_WritePin(GPIOA, ALL_PINS, GPIO_PIN_RESET);    // ?????
+        HAL_GPIO_WritePin(GPIOA, ALL_PINS, GPIO_PIN_RESET);
         step = 0;
         HAL_Delay(10);
     }
-    else                                                       // PA4 ???:???
+    else
     {
         HAL_GPIO_WritePin(GPIOA, ALL_PINS, GPIO_PIN_RESET);
 
