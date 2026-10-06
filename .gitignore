@@ -1,0 +1,37 @@
+# Keil MDK generated output and per-user settings
+**/MDK-ARM/*/
+**/MDK-ARM/*.uvoptx
+**/MDK-ARM/*.uvguix.*
+**/MDK-ARM/*.lst
+**/MDK-ARM/DebugConfig/
+**/MDK-ARM/RTE/
+
+# IAR generated output and per-user settings
+**/EWARM/Debug/
+**/EWARM/settings/
+**/*.ewd
+
+# STM32CubeIDE output
+**/Debug/
+**/Release/
+
+# Common embedded build artifacts
+*.axf
+*.bin
+*.elf
+*.hex
+*.map
+*.o
+*.d
+*.crf
+*.dep
+*.lnp
+*.sct
+*.build_log.htm
+*.log
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

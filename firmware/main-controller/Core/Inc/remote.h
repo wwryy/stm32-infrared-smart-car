@@ -1,0 +1,28 @@
+#ifndef __REMOTE_H
+#define __REMOTE_H
+
+#include "stm32f1xx_hal.h"
+#include <stdint.h>
+
+// ????:PA1 -> EXTI1
+#define REMOTE_GPIO_PORT   GPIOA
+#define REMOTE_GPIO_PIN    GPIO_PIN_1
+
+// ???????
+#define RDATA  (HAL_GPIO_ReadPin(REMOTE_GPIO_PORT, REMOTE_GPIO_PIN))
+
+// ??????ID(???? 0)
+#define REMOTE_ID  0
+
+extern uint8_t RmtCnt;
+
+// ???(? MX_GPIO_Init() ???)
+void Remote_Init(void);
+
+// ???????????(?????,????0)
+uint8_t Remote_Scan(void);
+
+// EXTI ????:? HAL_GPIO_EXTI_Callback ????
+void Remote_EXTI_Handler(uint16_t GPIO_Pin);
+
+#endif
